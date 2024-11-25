@@ -13,6 +13,7 @@
     <?php include('../includes/header.php'); ?>
     <div class="container mt-5">
         <h2>Lista de Vuelos</h2>
+        <a class="btn btn-success mb-3" href="agregar_vuelo.php">Agregar Vuelo</a>
         <table class="table table-striped">
             <thead>
                 <tr>
