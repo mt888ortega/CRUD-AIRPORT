@@ -1,5 +1,3 @@
-home.php 
-
 <?php
 session_start(); // Inicia la sesión
 
@@ -24,4 +22,4 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
         <a class="btn btn-danger btn-lg" href="logout.php" role="button">Cerrar Sesión</a>
     </div>
 </div>
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer.php'); ?>

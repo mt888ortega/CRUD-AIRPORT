@@ -42,7 +42,9 @@
                 <label for="airplane_id">ID de Avión:</label>
                 <input type="number" class="form-control" id="airplane_id" name="airplane_id" required>
             </div>
+            <!-- Botones -->
             <button type="submit" class="btn btn-primary">Guardar Vuelo</button>
+            <button type="submit" name="guardar_otro" class="btn btn-secondary">Guardar Otro Vuelo</button>
         </form>
     </div>
     <?php include('../includes/footer.php'); ?>
