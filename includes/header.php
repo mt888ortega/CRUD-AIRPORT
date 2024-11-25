@@ -4,17 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Gestión del Aeropuerto</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Tu archivo CSS personalizado -->
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="crud/listar_aviones.php">Aviones</a></li>
-                <li><a href="crud/listar_pasajeros.php">Pasajeros</a></li>
-                <li><a href="crud/listar_vuelos.php">Vuelos</a></li>
-                <li><a href="consultas/consultar_pasajeros_vuelo.php">Consultas</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="../index.php">Aeropuerto</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.php">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../crud/listar_aviones.php">Aviones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../crud/listar_pasajeros.php">Pasajeros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../crud/listar_vuelos.php">Vuelos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../consultas/consultar_pasajeros_vuelo.php">Consultas</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
