@@ -12,26 +12,26 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="../CRUD_AIRPORT/index.php">Aeropuerto</a>
+            <a class="navbar-brand" href="../index.php">Aeropuerto</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="../CRUD_AIRPORT/index.php">Inicio</a>
+                        <a class="nav-link" href="../index.php">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../CRUD_AIRPORT/crud/listar_aviones.php">Aviones</a>
+                        <a class="nav-link" href="../crud/listar_aviones.php">Aviones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../CRUD_AIRPORT/crud/listar_pasajeros.php">Pasajeros</a>
+                        <a class="nav-link" href="../crud/listar_pasajeros.php">Pasajeros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../CRUD_AIRPORT/crud/listar_vuelos.php">Vuelos</a>
+                        <a class="nav-link" href="../crud/listar_vuelos.php">Vuelos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../CRUD_AIRPORT/consultas/consultar_pasajeros_vuelo.php">Consultas</a>
+                        <a class="nav-link" href="../consultas/consultar_pasajeros_vuelo.php">Consultas</a>
                     </li>
                 </ul>
             </div>
